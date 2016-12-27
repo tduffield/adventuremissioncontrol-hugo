@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ if or .Site.Params.navigation.links.wedding }}
+            {{ partial "nav.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.hero }}
+            {{ partial "hero.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.wedding }}
+            {{ partial "wedding.html" . }}
+        {{ end }}
+
+        {{ partial "js.html" . }}
+
+        {{ template "_internal/google_analytics.html" . }}
+    </body>
+</html>

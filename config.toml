@@ -1,0 +1,77 @@
+languageCode = "en-us"
+title = "Adventure Mission Control"
+baseurl = "http://www.adventuremissioncontrol.com"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Adventure Mission Control"
+	description = "Site for Tom and Katie"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Adventure Mission Control"
+
+		[params.navigation.links]
+			wedding  = "Wedding"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Houston, we have matrimony"
+		subtitle   = "Join us for the celebration."
+		buttonText = ""
+
+	# Service section
+	[params.wedding]
+		headline = "December 31, 2017"
+
+    [[params.wedding.list]]
+      icon = "fa-mail-reply"
+      title = "RSVP"
+      description = "We'd love to have you join us!."
+			href = ""
+
+    [[params.wedding.list]]
+			icon = "fa-gift"
+			title = "Registry"
+			description = "All hail our consumerist overlords."
+			href = ""
+
+		[[params.wedding.list]]
+      icon = "fa-newspaper-o"
+      title = "Up to Date"
+      description = "We update dependencies to keep things fresh."
+			href = ""
+
+    [[params.wedding.list]]
+      icon = "fa-heart"
+      title = "Made with Love"
+      description = "You have to make your websites with love these days!"
+			href = ""
+
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
