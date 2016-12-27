@@ -31,43 +31,43 @@ theme = "hugo-creative-theme"
 		brand = "Adventure Mission Control"
 
 		[params.navigation.links]
-			wedding  = "Wedding"
+			wedding = "Wedding"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Houston, we have matrimony"
-		subtitle   = "Join us for the celebration."
+		subtitle   = "Check back here later for more information"
 		buttonText = ""
 
-	# Service section
-	[params.wedding]
-		headline = "December 31, 2017"
-
-    [[params.wedding.list]]
-      icon = "fa-mail-reply"
-      title = "RSVP"
-      description = "We'd love to have you join us!."
-			href = ""
-
-    [[params.wedding.list]]
-			icon = "fa-gift"
-			title = "Registry"
-			description = "All hail our consumerist overlords."
-			href = ""
-
-		[[params.wedding.list]]
-      icon = "fa-newspaper-o"
-      title = "Up to Date"
-      description = "We update dependencies to keep things fresh."
-			href = ""
-
-    [[params.wedding.list]]
-      icon = "fa-heart"
-      title = "Made with Love"
-      description = "You have to make your websites with love these days!"
-			href = ""
+	# Wedding section
+	# [params.wedding]
+	# 	headline = "December 31, 2017"
+	#
+  #   [[params.wedding.list]]
+  #     icon = "fa-mail-reply"
+  #     title = "RSVP"
+  #     description = "We'd love to have you join us!."
+	# 		href = ""
+	#
+  #   [[params.wedding.list]]
+	# 		icon = "fa-gift"
+	# 		title = "Registry"
+	# 		description = "All hail our consumerist overlords."
+	# 		href = ""
+	#
+	# 	[[params.wedding.list]]
+  #     icon = "fa-newspaper-o"
+  #     title = "Up to Date"
+  #     description = "We update dependencies to keep things fresh."
+	# 		href = ""
+	#
+  #   [[params.wedding.list]]
+  #     icon = "fa-heart"
+  #     title = "Made with Love"
+  #     description = "You have to make your websites with love these days!"
+	# 		href = ""
 
 
 	# Google Maps section
