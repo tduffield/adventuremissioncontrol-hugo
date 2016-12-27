@@ -1,0 +1,22 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            {{ with .Site.Params.hero.slogan }}
+                <h1>{{ . | markdownify  }}</h1>
+            {{ end }}
+            {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
+                <hr>
+            {{ end }}
+            {{ with .Site.Params.hero.subtitle }}
+                <p>{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with .Site.Params.hero.buttonText }}
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+            {{ end }}
+        </div>
+    </div>
+    <div class="header-attribution">
+      &quot;<a href="https://flic.kr/p/kDb6sn" target="_blank">Windswept Ice Pile on Lake Superior</a>&quot; by <a href="https://www.flickr.com/photos/travelgardeneat/" target="_blank">Kat B.</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+    </div>
+</header>

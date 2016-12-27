@@ -38,7 +38,7 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Houston, we have matrimony"
-		subtitle   = "Check back here later for more information"
+		subtitle   = "We're still working out the details, so check back soon for more information."
 		buttonText = ""
 
 	# Wedding section
